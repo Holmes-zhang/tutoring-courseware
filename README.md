@@ -4,13 +4,17 @@
 
 它保留了我实际需要的几件事：讲题时先收起解析，按需展开；要推导时直接在课件上写；课后把正文与解析打印成 PDF。示例内容是通用占位文字和基础数学题，不包含真实学生记录。
 
+[在线预览](https://holmes-zhang.github.io/tutoring-courseware/) · [使用此模板](https://github.com/Holmes-zhang/tutoring-courseware/generate)
+
+想保存自己的版本，可以点击仓库上方的 **Use this template → Create a new repository**，再修改新仓库 `index.html` 中的 `const LESSON`。
+
 ## 开始使用
 
 1. 下载 `index.html`，用现代浏览器打开。课件、公式脚本与字体都在文件内，打开后不需要联网。
 2. 先查看 8 页示例：封面、章节导航和 6 个内容页。
 3. 复制并重命名 HTML，用文本编辑器搜索 `const LESSON`，替换这一段的课程内容。
 
-HTML 文件可以直接发送给授课设备，也可作为静态页面部署。GitHub 仓库中的文件预览会显示源码；在本地打开下载的文件即可演示。
+HTML 文件可以直接发送给授课设备，也可作为静态页面部署。GitHub 仓库中的文件预览会显示源码；演示时可以打开上方的在线预览，或在本地打开下载的文件。
 
 ## 内容怎么换
 
